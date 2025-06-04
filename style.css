@@ -16,16 +16,17 @@ main {
 }
 
 section {
-  min-height: 100svh;
+  height: auto;
   width: 800px;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 article {
-  height: 500px;
+  height: 450px;
   width: 100vw;
   display: flex;
   flex-flow: column;
