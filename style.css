@@ -1,2 +1,48 @@
-/* main. section, article, h2, p, button /*
+/* main. section, article, h2, p, button */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100svh;
+  min-width: 100svw;
+  padding: 15px;
+}
+
+section {
+  min-height: 100svh;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+h2 {
+  font-family: ;
+  font-size: 15;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15;
+  font-weight: 400;
+}
