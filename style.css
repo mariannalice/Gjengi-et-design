@@ -10,6 +10,9 @@ main {
   background-color: hsl(0, 0%, 95%);
   min-height: 100svh;
   min-width: 100svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
 }
 
@@ -37,12 +40,19 @@ article {
 }
 
 h2 {
-  font-family: ;
+  font-family: "Big Shoulders";
   font-size: 15;
   font-weight: 700;
 }
 
 p {
+  font-family: "Lexend Deca";
   font-size: 15;
   font-weight: 400;
+}
+
+button {
+  font-family: "Lexend Deca";
+  border: none;
+  background-color: hsl(0, 0%, 95%);
 }
